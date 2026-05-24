@@ -1,0 +1,17 @@
+---- Initial Array: {29, 10, 14, 37, 13} ---
+
+1. Pass 1 (i = 0): Scans the array. The smallest element is 10 (at index 1). Swap 10 with 29.
+   Array becomes: {10, | 29, 14, 37, 13}
+
+2. Pass 2 (i = 1): Scans from index 1. The smallest element is 13 (at index 4). Swap 13 with 29.
+   Array becomes: {10, 13, | 14, 37, 29}
+
+3. Pass 3 (i = 2): Scans from index 2. The smallest element is 14 (at index 2). It is already in the       correct position, so no swap is needed.
+   Array becomes: {10, 13, 14, | 37, 29}
+
+4. Pass 4 (i = 3): Scans from index 3. The smallest element is 29 (at index 4). Swap 29 with 37.
+   Array becomes: {10, 13, 14, 29, | 37}
+
+--- Sorted Array: {10, 13, 14, 29, 37} ---
+
+
